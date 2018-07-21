@@ -44,6 +44,10 @@ h3 {
   line-height:3;
 }
 
+.date {
+  color: grey;
+}
+
   .width50 {width:50%;}
   .strong {font-weight:bold;}
   .larger {font-size:150%;}
@@ -95,6 +99,7 @@ h3 {
     width: 200px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 15px;
   }
 
   .btn:hover {
@@ -228,7 +233,10 @@ h3 {
 }
 
 @media only screen and (min-width: 769px) {
-    img {max-width: 50%;}
+    img {
+      max-width: 50%;
+      padding:20px;
+    }
 }
 
 
