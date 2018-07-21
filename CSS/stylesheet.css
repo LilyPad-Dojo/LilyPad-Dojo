@@ -53,7 +53,7 @@ html, body {
   box-sizing: border-box; }
 
 body {
-  padding: 0;
+  padding: 20px;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
