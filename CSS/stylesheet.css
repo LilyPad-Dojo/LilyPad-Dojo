@@ -263,7 +263,7 @@ h3 {
     padding-top: 2rem;
     margin-top: 2rem;
     border-top: solid 1px #eff0f1;
-    background: blue; }
+}
 
   .site-footer-owner {
     display: block;
@@ -277,6 +277,8 @@ h3 {
     right: 0px;
     bottom: -20px;
   }
+
+  #mc_embed_signup {background:#DFF8FF;}
 
 /*Media Queries*/
 
