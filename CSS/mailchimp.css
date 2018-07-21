@@ -15,7 +15,7 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
 #mc_embed_signup #mce-error-response {display:none;}
 #mc_embed_signup #mce-success-response {color:#529214; display:none;}
 #mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
-@media (max-width: 768px) {
+@media (max-width: 426px) {
     #mc_embed_signup input.email {width:100%; margin-bottom:5px;}
     #mc_embed_signup .clear {display: block; width: 100% }
     #mc_embed_signup .button {width: 100%; margin:0; }
