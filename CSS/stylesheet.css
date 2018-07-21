@@ -61,6 +61,10 @@ body {
   color: #606c71;
  }
 
+ul {
+  list-style-type: none;
+ }
+
 a {
   color: #1e6bb8;
   text-decoration: underline; }
