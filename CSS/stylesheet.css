@@ -52,6 +52,8 @@ html, body {
 * {
   box-sizing: border-box; }
 
+html {background-color:#FEF9F5;}
+
 body {
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
