@@ -25,7 +25,7 @@ a {
     text-decoration: underline; }
 
 img {
-  float:left;
+  float:right;
   max-width: 100%;
 }
 #children {
@@ -103,10 +103,10 @@ h3 {
   }
 
   .btn:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: white;
     text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.3); }
+    background-color: #007F5E;
+    border: 0; }
 
   .page-header {
     text-align: center;
