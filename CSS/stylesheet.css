@@ -227,4 +227,9 @@ h3 {
     background-color: #DFF8FF; 
 }
 
+@media only screen and (min-width: 769px) {
+    img {max-width: 50%;}
+}
+
+
 
