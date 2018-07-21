@@ -21,7 +21,7 @@ ul {
 a {
   color: #1e6bb8;
   text-decoration: underline; }
-  
+
 a:hover {
     text-decoration: underline; }
 
@@ -237,6 +237,21 @@ h3 {
     img {
       max-width: 50%;
       padding:20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p {
+      font-size: 11pt;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    h1 {
+      font-size: 1.3em;
+    }
+    h2 {
+      font-size: 1.1em;
     }
 }
 
