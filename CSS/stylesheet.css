@@ -18,7 +18,7 @@ ul {
   list-style-type: none;
  }
 
-a, a:active, a:visited {
+a:not(.btn), a:active:not(.btn), a:visited:not(.btn) {
   color: #49ccf1;
   text-decoration: underline; }
 
