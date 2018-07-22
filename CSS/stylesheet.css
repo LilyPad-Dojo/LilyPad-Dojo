@@ -2,7 +2,7 @@
 * {
   box-sizing: border-box; }
 
-html {background-color:#FEF9F5;}
+html {background-color:#fef9f557;}
 
 body {
   margin: 0;
@@ -114,7 +114,7 @@ h3 {
     color: white;
     text-decoration: none;
     background-color: #007F5E;
-    border: 0; }
+    }
 
   .page-header {
     text-align: center;
