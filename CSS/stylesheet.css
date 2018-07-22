@@ -36,6 +36,10 @@ img {
 
 .hero {padding: 0;}
 
+#banner {
+  width: 100%;
+}
+
 h1 {
   text-align: center;
   font: green;
