@@ -18,8 +18,8 @@ ul {
   list-style-type: none;
  }
 
-a {
-  color: #1e6bb8;
+a, a:active, a:visited {
+  color: #49ccf1;
   text-decoration: underline; }
 
 a:hover {
@@ -46,7 +46,14 @@ h3 {
 }
 
 .date {
+    color: #8e8e8e;
+    font-weight: 100;
+    font-size: 1.3em;
+}
+
+.asterisk {
   color: grey;
+  font-size:10pt;
 }
 
   .width50 {width:50%;}
@@ -99,7 +106,7 @@ h3 {
     background-color: #fff;
     width: 200px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 20px;
     margin-bottom: 15px;
   }
 
@@ -111,8 +118,9 @@ h3 {
 
   .page-header {
     text-align: center;
-    background-color: white;
+    background-color: #2c2e31;
     padding: 20px;
+    color: white;
   }
 
   .project-tagline {
@@ -230,7 +238,8 @@ h3 {
     padding-top: 2rem;
     margin-top: 2rem;
     border-top: solid 1px #eff0f1;
-    background-color: #DFF8FF; 
+    background-color: #49ccf1;
+    color: white;
 }
 
 @media only screen and (min-width: 769px) {
@@ -243,6 +252,10 @@ h3 {
 @media only screen and (max-width: 768px) {
     p {
       font-size: 11pt;
+    }
+    .btn {
+      display: block;
+      margin-right:auto;
     }
 }
 
