@@ -12,7 +12,11 @@ body {
   color: #606c71;
  }
 
-main {padding: 20px;}
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 ul {
   list-style-type: none;
@@ -38,6 +42,10 @@ img {
 
 #banner {
   width: 100%;
+}
+
+h1, h2, h3, h4 {
+  display: inline-block;
 }
 
 h1 {
@@ -244,32 +252,35 @@ h3 {
 
   .site-footer {
     padding-top: 2rem;
-    margin-top: 2rem;
     border-top: solid 1px #eff0f1;
     background-color: #49ccf1;
     color: white;
 }
 
 @media only screen and (min-width: 769px) {
-    img:not#banner {
+    #sketchup {
       max-width: 50%;
       padding:20px;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    p {
+    p,li {
       font-size: 11pt;
     }
     .btn {
       display: block;
       margin-right:auto;
     }
+    .date {
+      font-size: 1.1em;
+    }
 }
 
 @media only screen and (max-width: 450px) {
     h1 {
       font-size: 1.3em;
+      margin: 0;
     }
     h2 {
       font-size: 1.1em;
