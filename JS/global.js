@@ -6,7 +6,3 @@ includeJS('https://code.jquery.com/jquery-latest.js');
 
 includeJS('JS/pushy.js');
 
-$(function(){
-      $("#nav-menu").load("nav-menu.html"); 
-    });
-
