@@ -4,10 +4,25 @@
 
 html {background-color:#E3FCD2;}
 
-nav {text-align: center;}
+nav {
+  text-align: center;
+  background: white;
+}
+
+.nav-wrapper {
+  max-width: 750px;
+  margin: 0 auto;
+}
 
 .menu-btn {
   float: left;
+  border: 0;
+  width: 80px;
+  height: 80px;
+  font-size: 35pt;
+  color: #636363;
+  background: none;
+}
 }
 
 body {
@@ -59,6 +74,7 @@ hr {
 footer {
   background: #A86118;
   width: 100%;
+  clear: both;
 }
 
 .container {

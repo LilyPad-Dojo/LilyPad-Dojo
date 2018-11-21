@@ -74,6 +74,7 @@
 .pushy-open-left .pushy-content,
 .pushy-open-right .pushy-content {
   visibility: visible;
+  text-align: left;
 }
 
 /* Menu Transitions */
