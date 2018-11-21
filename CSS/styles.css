@@ -134,19 +134,19 @@ blockquote {
   line-height: 0;
 }
 
- .learn-more button {
+ button.learn-more {
   border: 2px solid #D8FFF5;
   background: none;
   padding: 15px;
   margin: 15px;
 }
 
- .learn-more button a {
+button.learn-more a {
   background: none;
   color:#007F5E;
 }
 
- .learn-more button:hover {
+button.learn-more:hover  {
   background: #D8FFF5;
   transition: 0.5s;
 }
