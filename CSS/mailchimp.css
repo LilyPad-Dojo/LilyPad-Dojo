@@ -24,16 +24,11 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
 	border-bottom: 1.5px solid rgb(65, 65, 65);
 }
 
-#mc_embed_signup input.email::placeholder, #mc_embed_signup input.email::-webkit-input-placeholder, #mc_embed_signup input.email::-moz-placeholder ,#mc_embed_signup input.email::-ms-input-placeholder ,#mc_embed_signup input.email::-moz-placeholder
-{ 
-  color: pink;
-}
-
 #mc_embed_signup label {
 	display: block;
 	font-size: 16px;
 	padding-bottom: 10px;
-	color: rgb(237, 237, 237);
+	color: white;
 }
 #mc_embed_signup .clear {display: inline-block;} /* positions button horizontally in line with input */
 #mc_embed_signup .button {
@@ -60,6 +55,12 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
 #mc_embed_signup #mce-success-response {color:#529214; display:none;}
 #mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
 
+
+/*Custom Stuff */
+
+#no-spam {
+	padding:0;
+}
 form.validate p {
 	color: white;
 }

@@ -1,4 +1,5 @@
  <footer>
+        <div class="twenty-pad"></div>
         <!-- Begin MailChimp Signup Form -->
         <div id="mc_embed_signup" class="e-mailSignup">
         <form action="https://ben-grandy.us18.list-manage.com/subscribe/post?u=763b8059bcd003cea2e6c320f&amp;id=10558e2ddd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -13,4 +14,10 @@
         </form>
         </div>
         <!--End MailChimp-->
+
+        <span id="copyright">Copyright &copy; <span id="current-year"></span>. All rights reserved. by <a href="http://ben-grandy.com">Nuanced Design</a>.</span>
 </footer>
+
+<script>
+        document.getElementById("current-year").innerHTML = (new Date().getFullYear());
+</script>

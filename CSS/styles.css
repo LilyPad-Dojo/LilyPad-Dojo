@@ -211,6 +211,19 @@ footer {
   float: right;
 }
 
+#copyright {
+  text-align: center;
+  color: rgb(209, 209, 209);
+  font-style:italic;
+  display: block;
+  margin: 0 auto;
+}
+
+#copyright a {
+  color: rgb(209, 209, 209);
+  text-decoration: underline;
+}
+
 /*xs (for phones - screens less than 768px wide)
 
 sm (for tablets - screens equal to or greater than 768px wide)
