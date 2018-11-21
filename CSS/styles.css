@@ -4,6 +4,12 @@
 
 html {background-color:#E3FCD2;}
 
+nav {text-align: center;}
+
+.menu-btn {
+  float: left;
+}
+
 body {
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -34,8 +40,8 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  text-align: center;
-  font: green;
+  display: inline-block;
+  color: green;
 }
 h3 {
   font-size:1.5em;o
@@ -58,6 +64,20 @@ footer {
 .container {
   max-width: 750px;
   margin: 0 auto;
+}
+
+.left, .right {
+  width: 50%;
+}
+
+.left {
+  float: left;
+  background:green;
+}
+
+.right {
+  float: right;
+  background:purple;
 }
 
 /*xs (for phones - screens less than 768px wide)
