@@ -28,7 +28,7 @@ nav {
 #nav-logo {
   float:right;
   height: 50px;
-  margin-top: 17px;
+  margin-top: 13px;
 }
 
 #nav-title {
@@ -40,9 +40,6 @@ nav {
 
 body {
   margin: 0;
-  font-family: 'Open Sans', Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
  }
 
 main {
@@ -55,28 +52,29 @@ ul {
   list-style-type: none;
  }
 
-a:hover {
-    text-decoration: underline; }
-
 img {
-  float:right;
   max-width: 100%;
 }
 
 h1, h2, h3, h4 {
-  display: inline-block;
-  font-family: 'KoHo', Helvetica, sans-serif;
-}
-
-h1 {
   display: block;
   color: #505050;
   text-align: center;
   margin: 0 auto;
+  font-family: 'KoHo', Helvetica, sans-serif;
+}
+
+h1 {
+  padding: 20px 0;
 }
 h3 {
   font-size:1.5em;o
   line-height:3;
+}
+
+p {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  padding-left: 20px;
 }
 
 hr {
@@ -86,6 +84,54 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+blockquote {
+  color: white;
+  font-size:18pt;
+  line-height: 2;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  text-align: center;
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.quote-citation {
+  text-align: right;
+  color: white;
+  font-size:15pt;
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+.quote-mark {
+  font-family: 'Playfair display', serif;
+  font-size:40pt;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+button {
+  border: 2px solid #D8FFF5;
+  background: none;
+  padding: 15px;
+  margin: 15px;
+}
+
+button a {
+  background: none;
+  color:#007F5E;
+}
+
+button:hover {
+  background: #D8FFF5;
+  transition: 0.5s;
+}
+
+.float-right {float: right;}
+.float-left {float:left;}
 
 footer {
   background: #A86118;
@@ -100,18 +146,48 @@ footer {
   background: #FFFEFB;
 }
 
+.banner {
+  background: #15868E;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.three-column {
+    float: left;
+    width: 33.33%;
+}
+
+.copy-block {
+  padding: 14% 0;
+}
+
+.icons {
+  width: 140px;
+  display: block;
+  margin: 0 auto;
+}
+
+.split {
+  margin-bottom: -4px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .left, .right {
   width: 50%;
 }
 
 .left {
   float: left;
-  background:green;
 }
 
 .right {
   float: right;
-  background:purple;
 }
 
 /*xs (for phones - screens less than 768px wide)
