@@ -2,7 +2,7 @@
 * {
   box-sizing: border-box; }
 
-html {background-color:#fef9f557;}
+html {background-color:#E3FCD2;}
 
 body {
   margin: 0;
@@ -250,6 +250,11 @@ hr {
 
   #no-spam {
     color:rgba(255, 255, 255, 0.7);
+  }
+
+  footer {
+    background: #A86118;
+    width: 100%;
   }
 
   .site-footer {
