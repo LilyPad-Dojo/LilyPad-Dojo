@@ -22,6 +22,7 @@ nav {
   font-size: 35pt;
   color: #636363;
   background: none;
+  margin-top: -7px;
 }
 
 #nav-logo {
@@ -71,6 +72,7 @@ h1 {
   display: block;
   color: #505050;
   text-align: center;
+  margin: 0 auto;
 }
 h3 {
   font-size:1.5em;o
