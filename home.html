@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/global.css?t=23-15" media="screen">
         
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
     <style type="text/css">
 
     </style>
@@ -15,31 +16,7 @@
   </head>
 <body>
 
-    <!-- Pushy Menu -->
-<nav class="pushy pushy-left">
-    <div class="pushy-content">
-        <ul>
-            <li class="pushy-link"><a href="#">Design</a></li>
-            <li class="pushy-link"><a href="#">Experience</a></li>
-            <!-- Submenu -->
-            <li class="pushy-submenu">
-                <button>Systems</button>
-                <ul>
-                <hr>
-                    <li class="pushy-link"><a href="#">Electricity</a></li>
-                    <li class="pushy-link"><a href="#">Water</a></li>
-                    <li class="pushy-link"><a href="#">Air Handling</a></li>
-                    <li class="pushy-link"><a href="#">Temp. Control</a></li>
-                    <li class="pushy-link"><a href="#">Transportation</a></li>
-                    <li class="pushy-link"><a href="#">Landscaping</a></li>
-                <hr>
-                </ul>
-            </li>
-            <li class="pushy-link"><a href="#">Resources</a></li>
-            <li class="pushy-link"><a href="#">Contact Us</a></li>
-        </ul>
-    </div>
-</nav>
+ <div id="nav-menu"></div>
 
 <!-- Site Overlay -->
 <div class="site-overlay"></div>
@@ -68,11 +45,15 @@
         </form>
         </div>
         <!--End MailChimp-->
-
-
-        <script src="JS/global.js"></script>
     </footer>
-    
+
+<script src="JS/global.js"></script>
+
+<script> 
+    $(function(){
+      $("#nav-menu").load("nav-menu.html"); 
+    });
+</script>
 
 </body>
 
