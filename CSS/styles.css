@@ -10,6 +10,10 @@ nav {
   font-weight: 300;
 }
 
+.clear {
+  clear: both;
+}
+
 .nav-wrapper {
   max-width: 750px;
   margin: 0 auto;
@@ -77,6 +81,10 @@ p {
   font-family: 'Open Sans', Helvetica, sans-serif;
   padding: 20px 15px 0 25px;
 }
+
+.video {
+            width: 100%;
+        }
 
 .body-sm, .body-md {
   margin: 0;
@@ -151,6 +159,28 @@ button.learn-more:hover  {
   transition: 0.5s;
 }
 
+button.bottom-nav {
+  border: 0px solid rgb(76, 76, 76);
+  background: #D8FFF5;
+  padding: 15px;
+  margin: 15px;
+}
+
+button.bottom-nav a {
+  background: none;
+  color:rgb(76, 76, 76);
+}
+
+button.bottom-nav:hover {
+  background: white;
+  transition: 0.5s;
+}
+
+.bottom-nav-wrapper {
+  background: #15868E;
+  clear: both;
+}
+
 .float-right {float: right;}
 .float-left {float:left;}
 
@@ -189,6 +219,9 @@ footer {
 }
 
 .split {
+}
+
+.row {
   margin-bottom: -4px;
 }
 
