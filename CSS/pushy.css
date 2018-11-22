@@ -143,6 +143,7 @@
   text-align: left;
   background: transparent;
   border: 0;
+  font-family: 'Open Sans', Helvetica, sans-serif;
 }
 .pushy-submenu button:hover {
   color: #a3a2a2;
