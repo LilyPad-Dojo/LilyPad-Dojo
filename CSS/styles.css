@@ -179,6 +179,8 @@ button.bottom-nav:hover {
 .bottom-nav-wrapper {
   background: #15868E;
   clear: both;
+  float: right;
+  width: 100%;
 }
 
 .float-right {float: right;}
@@ -222,15 +224,16 @@ footer {
 }
 
 .row {
+  display: flex;
   margin-bottom: -4px;
 }
 
 /* Clear floats after the columns */
-.row:after {
+/*.row:after {
     content: "";
     display: table;
     clear: both;
-}
+}*/
 
 .left, .right {
   width: 50%;
