@@ -226,6 +226,7 @@ footer {
 .row {
   display: flex;
   margin-bottom: -4px;
+  clear: both;
 }
 
 /* Clear floats after the columns */
