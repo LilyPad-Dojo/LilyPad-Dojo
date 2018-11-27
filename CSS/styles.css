@@ -248,6 +248,34 @@ footer {
   float: right;
 }
 
+.image-text-wrapper {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: 'KoHo', Helvetica, sans-serif;
+  font-size:25pt;
+  margin-bottom: -10px;
+}
+
+.image-text-wrapper img {
+  filter:grayscale(70%) blur(0px) brightness(0.70);
+}
+
+.image-text-wrapper img:hover {
+  filter:grayscale(0%) blur(0px) brightness(1.0);
+  transition: 0.6s;
+}
+
+.image-text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(46, 46, 46, 0.68);
+  padding: 0 6px 6px 6px;
+  border-radius: 8px;
+}
+
 #copyright {
   text-align: center;
   color: rgb(209, 209, 209);

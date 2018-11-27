@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" type="image/png" href="IMG/favicon.png">
+    <meta charset="UTF-8">
+    <title>Systems</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="CSS/global.css" media="screen">
+
+    <style type="text/css">
+
+        #climate-control {
+            width: 240px;
+        }
+
+    
+    </style>
+    
+</head>
+<body>
+    <!-- Site Overlay for Nav Menu -->
+    <div class="site-overlay"></div>
+
+    <div id="nav-menu"></div>
+
+    <nav>
+        <div class="nav-wrapper">
+            <!-- Nav Menu Button -->
+            <button class="menu-btn">&#9776;</button>
+            
+            <div id="nav-title">Systems</div>
+
+            <a href="index.html"><img src="IMG/nav-logo.png" id="nav-logo" /></a>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container">
+
+        <h1>High-Performance Systems</h1>
+
+        <p>
+            LilyPad goes further than net-zero energy, it actually produces more energy than it consumes. By recycling water through the greywater system, it significantly cuts its water need. Additionally, air-sealing and super-insulated walls create best-in-class efficiency and a great home experience. Let's build high-peformance homes that work for us, rather than us working to maintain our homes.
+        </p>
+        <div class="image-text-wrapper">
+            <a href="Systems/electricity.html"><img src="IMG/systems/solar-system.jpg" /></a>
+            <div class="image-text-overlay">Electricity</div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="split left">
+                    <div class="image-text-wrapper">
+                        <a href="Systems/water.html"><img src="IMG/systems/water-system.jpg"></a>
+                        <div class="image-text-overlay">Water</div>
+                    </div>
+                </div>
+                <div class="split right">
+                    <div class="image-text-wrapper">
+                        <a href="Systems/temp-control.html"><img src="IMG/systems/temp-control.jpg"></a>
+                        <div class="image-text-overlay" id="climate-control">Climate Control</div>
+                    </div>
+                </div>     
+            </div>
+        </div>
+        <div class="image-text-wrapper">
+            <a href="Systems/air-sound.html"><img src="Placeholder/air-sound-system.png" /></a>
+<!--             <div class="image-text-overlay">Air &amp; Sound</div>
+ -->        </div>
+<!--         <div class="row">
+            <div class="column">
+                <div class="split left">
+                    <a href="Systems/appliances.html"><img src="IMG/systems/appliances.jpg"></a>
+                </div>
+                <div class="split right">
+                    <a href="Systems/materials.html"><img src="IMG/systems/materials.jpg"></a>
+                </div>     
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="split left">
+                    <a href="Systems/transportation.html"><img src="Placeholder/transportation-system.png"></a>
+                </div>
+                <div class="split right">
+                    <a href="Systems/landscaping.html"><img src="IMG/systems/landscaping.jpg"></a>
+                </div>     
+            </div>
+        </div> -->
+
+        <div class="bottom-nav-wrapper">
+            <button  class="float-left bottom-nav">
+                        <a href="experience.html">< Experience</a>
+            </button>
+            <button  class="float-right bottom-nav">
+                        <a href="resources.html">Resources ></a>
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<div id="footer"></div>
+
+</body>
+
+    <script src="JS/global.js"></script>
+    <script type="text/javascript">
+    $(function(){
+          $("#nav-menu").load("nav-menu.html");
+          $("#footer").load("footer.html"); 
+        });
+    </script>
+
+</html>
