@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" type="image/png" href="IMG/favicon.png">
+    <meta charset="UTF-8">
+    <title>Resources</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="CSS/global.css" media="screen">
+
+    <style type="text/css">
+
+    #resource-container {
+        background: rgb(237, 237, 237);
+    }
+
+    .resource-titles {
+        margin: 25px 0 10px 0;
+    }
+
+    .resource-req-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .resource-req {
+        float: left;
+        width: 46%;
+        margin: 2%;
+    }
+
+    #resource-blurb {
+        padding: 20px;
+    }
+
+    #resource-contacts {
+        background: white;
+        border: 1px solid rgba(70, 70, 70, 0.5);
+        margin: 15px 40px 0 40px;
+        
+    }
+
+    #case-studies-wrapper {
+        width: 700px;
+        padding: 2px 16px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #case-studies-wrapper a {
+        float: left;
+        width: 300px;
+    }
+
+    .case-study {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        min-width: 250px;
+        width: 40%;
+        border-radius: 5px;
+        margin: 5%;
+        background: white;
+    }
+
+    .case-study img {
+        border-radius: 5px 5px 0 0;
+    }
+
+    .case-study p {
+        color: #8b8b8b;
+        font-size:11pt;
+        line-height: 1.3em;
+        margin: 0;
+        padding: 10px;
+        font-family: 'Open Sans', Helvetica, sans-serif;
+        text-align:justify;
+    }
+
+    .case-study:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        transform: translateY(-5px);
+    }
+    </style>
+    
+</head>
+<body>
+    <!-- Site Overlay for Nav Menu -->
+    <div class="site-overlay"></div>
+
+    <div id="nav-menu"></div>
+
+    <nav>
+        <div class="nav-wrapper">
+            <!-- Nav Menu Button -->
+            <button class="menu-btn">&#9776;</button>
+            
+            <div id="nav-title">Resources</div>
+
+            <a href="index.html"><img src="IMG/nav-logo.png" id="nav-logo" /></a>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container" id="resource-container">
+        <h4 id="resource-blurb">
+            Many thanks to these people and organizations, we highly <br/>recommend them for your high-performance home project.
+        </h4>
+
+        <div id="resource-contacts">
+            <h2 class="resource-titles">Building Services</h2>
+            <div class="resource-req-wrapper">
+                <div class="resource-req">
+                    <h4>Lorem Ipsum Dolor sit Amet</h4>
+                    <p class="body-sm">Consectetur adipiscing elit. Vivamus ut turpis commodo, lobortis erat a, fermentum purus. Donec quam nulla, sodales lacinia consectetur a, elementum ut velit.</p>
+                </div>
+                <div class="resource-req">
+                    <h4>Vestibulum Interdum Ipsum Et</h4>
+                    <p class="body-sm">Est iaculis egestas. Nullam sit amet tortor magna. Curabitur in lectus eros. Etiam feugiat tellus ut est vulputate, eget mattis sem dignissim. In at sapien lorem.</p>
+                </div>
+                <div class="resource-req">
+                    <h4>Nullam Sed Ornare Metus</h4>
+                    <p class="body-sm">Nunc venenatis a nisl non blandit. Pellentesque non urna urna. Phasellus laoreet pretium enim, eget lacinia est rutrum volutpat. Donec et odio purus. Ut commodo augue ac dapibus eleifend.</p>
+                </div>
+                <div class="resource-req">
+                    <h4>In Sollicitudin Fermentum Faucibus</h4>
+                    <p class="body-sm">Nunc ut gravida elit, id malesuada metus. Suspendisse turpis nisi, feugiat et sollicitudin eu, mattis vitae odio. In eu ipsum ut quam maximus suscipit porttitor ut quam. Cras scelerisque diam vel tristique congue.</p>
+                </div>
+            </div>
+            <h2 class="resource-titles">Building Material &amp; Equipment</h2>
+            <div class="resource-req-wrapper">
+                <div class="resource-req">
+                    <h4>Ut Pharetra arcu eu Vestibulum Dignissim</h4>
+                    <p class="body-sm">Aliquam euismod volutpat nulla lacinia cursus. Praesent egestas quam a magna fringilla facilisis. Vivamus vitae vulputate sapien. Pellentesque feugiat lobortis rhoncus.</p>
+                </div>
+                <div class="resource-req">
+                    <h4>Mauris Dolor Justo, Dapibus Vitae</h4>
+                    <p class="body-sm">Placerat sed, vehicula placerat libero. Quisque condimentum odio ac velit aliquam, eu tincidunt ligula laoreet. Ut vehicula felis eros, nec commodo justo ullamcorper quis.</p>
+                </div>
+            </div>
+            <h2 class="resource-titles">Organizations &amp; Programs</h2>
+            <div class="resource-req-wrapper">
+                <div class="resource-req">
+                    <h4>Aliquam Viverra Justo</h4>
+                    <p class="body-sm">At ex cursus hendrerit. Integer mollis imperdiet vulputate. Aliquam scelerisque massa quis maximus convallis. Cras tempor, quam eu vestibulum posuere, metus urna luctus magna, vitae mattis elit orci a mi.</p>
+                </div>
+                <div class="resource-req">
+                    <h4>Duis Ac sem non sem Mattis</h4>
+                    <p class="body-sm">Cursus, phasellus ornare placerat magna vel auctor. Integer in pulvinar libero, rutrum imperdiet lectus.</p>
+                </div>
+                <div class="resource-req">
+                    <h4>Sed Aliquet Muris</h4>
+                    <p class="body-sm">El orci convallis luctus. Cras sit amet porttitor sapien. Vestibulum sit amet purus ac risus lacinia fringilla et quis ex.</p>
+                </div>
+                <div class="resource-req">
+                    <h4>Sed est est, Dictum eu Finibus</h4>
+                    <p class="body-sm">Vitae, gravida ac magna. Integer viverra rutrum imperdiet. Quisque ut massa eget magna tempus porta in at risus. Duis aliquam suscipit aliquet. In rhoncus condimentum tincidunt.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="twenty-pad"></div>
+
+        <h1>Other Case Studies</h1>
+
+        <div id="case-studies-wrapper">
+            <a href="http://projectgreenhome.org/" target="_new">
+                <div class="case-study">
+                  <img src="IMG/Resources/project-green-home.jpg">
+                  <div>
+                    <h4>Project Green Home</h4> 
+                    <p>Project Green Home is beyond LEED Platinum, Zero Net-Energy, and the Passive House standard. It was built to be beautiful, comfortable and environmentally-efficient.</p> 
+                  </div>
+                </div>
+            </a>
+            <a href="http://Tahmahlah.com" target="_new">
+                <div class="case-study">
+                  <img src="IMG/Resources/tah-mah-lah.jpg">
+                  <div>
+                    <h4>TahMahLah</h4> 
+                    <p>Ideally, every home should be environmentally regenerative, seamlessly integrate into its ecosystem, be highly efficient, and produce more energy than it consumes.</p> 
+                  </div>
+                </div>
+            </a>
+            <a href="http://midorihaus.com/" target="_new">
+                <div class="case-study">
+                  <img src="IMG/Resources/midori-haus.jpg">
+                  <div>
+                    <h4>Midori Haus</h4> 
+                    <p> Midori Haus follows the journey of Chie and Kurt as they conceive of their ideal "green" home, put their aspiration to action, and challenge their team to meet the Passive House standard.</p> 
+                  </div>
+                </div>
+            </a>
+<!--             <a href="http://AjOhp.org" target="_new">
+                <div class="case-study">
+                  <img src="Placeholder/img_avatar2.png" alt="Avatar" style="width:100%">
+                  <div>
+                    <h4><b>AjO</b></h4> 
+                    <p>CEO and Badass</p> 
+                  </div>
+                </div>
+            </a> -->
+            <a href="http://www.solluxalpha.com/" target="_new">
+                <div class="case-study">
+                  <img src="IMG/Resources/sol-alpha-lux.jpg">
+                  <div>
+                    <h4>Sol Lux Alpha</h4> 
+                    <p>Energy-aware and resilient, Sol-Lux Alpha responds to the environment with sensitivity and ingenuity. It's the first multi-condo residence in the U.S.A. to combine Passive House certification with nanogrid technology. </p> 
+                  </div>
+                </div>
+            </a>
+        </div>
+        <div class="forty-pad"></div>
+
+        <div class="bottom-nav-wrapper">
+            <button  class="float-left bottom-nav">
+                        <a href="systems.html">< Systems</a>
+            </button>
+            <button  class="float-right bottom-nav">
+                        <a href="contact-us.html">Contact Us ></a>
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<div id="footer"></div>
+
+</body>
+
+    <script src="JS/global.js"></script>
+    <script type="text/javascript">
+    $(function(){
+          $("#nav-menu").load("nav-menu.html");
+          $("#footer").load("footer.html"); 
+        });
+    </script>
+
+</html>

@@ -113,6 +113,10 @@ hr {
   padding-bottom: 20px;
 }
 
+.forty-pad {
+  padding-bottom: 40px;
+}
+
 blockquote {
   color: white;
   font-size:18pt;
