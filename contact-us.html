@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" type="image/png" href="IMG/favicon.png">
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="CSS/global.css" media="screen">
+
+    <style type="text/css">
+
+        #contact-box {
+            width: 400px;
+            text-align: center;
+            margin: 0 auto;
+        }
+    </style>
+    
+</head>
+<body>
+    <!-- Site Overlay for Nav Menu -->
+    <div class="site-overlay"></div>
+
+    <div id="nav-menu"></div>
+
+    <nav>
+        <div class="nav-wrapper">
+            <!-- Nav Menu Button -->
+            <button class="menu-btn">&#9776;</button>
+            
+            <div id="nav-title">Contact Us</div>
+
+            <a href="index.html"><img src="IMG/nav-logo.png" id="nav-logo" /></a>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div id="contact-box">
+            
+        <p>Interested in furthering the Zero-net Energy High-Performance home movement?<br/>Want to host an event at Lily Pad? <a href="mailto:info@LilyPad.house">info@LilyPad.house</a><br/>
+            <button onclick="location.href='mailto:info@LilyPad.house'" type="button" id="lets-chat">Let's chat</button></p> 
+  
+        
+    </div>
+    <div class="container">
+        <div class="bottom-nav-wrapper">
+                <button  class="float-left bottom-nav">
+                            <a href="resources.html">< Resources</a>
+                </button>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="footer"></div>
+
+</body>
+
+    <script src="JS/global.js"></script>
+    <script type="text/javascript">
+    $(function(){
+          $("#nav-menu").load("nav-menu.html");
+          $("#footer").load("footer.html"); 
+        });
+    </script>
+
+</html>

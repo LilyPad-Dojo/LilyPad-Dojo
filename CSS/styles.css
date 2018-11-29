@@ -77,6 +77,15 @@ h3 {
   line-height:3;
 }
 
+a, a:visited {
+  color: #15868E;
+}
+
+a:hover {
+  color: #30f2bc;
+  transition: 0.3s;
+}
+
 p {
   font-family: 'Open Sans', Helvetica, sans-serif;
   padding: 20px 15px 0 25px;
@@ -178,6 +187,21 @@ button.bottom-nav a {
 button.bottom-nav:hover {
   background: white;
   transition: 0.5s;
+}
+
+button#lets-chat {
+  border: 2px solid #e4fbd4;
+  background: #15868E;
+  padding: 15px;
+  margin: 15px;
+  color:white;
+}
+
+button#lets-chat:hover {
+  border: 2px solid #15868E;
+  background: white;
+  transition: 0.5s;
+  color:rgb(76, 76, 76);
 }
 
 .bottom-nav-wrapper {
