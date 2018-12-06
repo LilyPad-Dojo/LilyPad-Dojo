@@ -91,6 +91,14 @@ p {
   padding: 20px 15px 0 25px;
 }
 
+.hero-banner {
+/*  height: 500px;
+*/  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .video {
             width: 100%;
         }
