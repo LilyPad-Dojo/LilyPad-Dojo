@@ -132,6 +132,7 @@
 .pushy-submenu ul {
   padding-left: 15px;
   transition: max-height 0.2s ease-in-out, visibility 0.2s ease-in-out;
+  list-style-type: none;
 }
 .pushy-submenu ul .pushy-link {
   transition: opacity 0.2s ease-in-out;

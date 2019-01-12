@@ -78,8 +78,9 @@ main {
 }
 
 ul {
-  list-style-type: none;
- }
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  list-style-type: circle;
+}
 
 img {
   max-width: 100%;
@@ -114,11 +115,6 @@ p {
   font-family: 'Open Sans', Helvetica, sans-serif;
   padding: 20px 15px 15px 25px;
   margin: 0;
-}
-
-ul {
-  font-family: 'Open Sans', Helvetica, sans-serif;
-  list-style-type: circle;
 }
 
 .hero-banner {
