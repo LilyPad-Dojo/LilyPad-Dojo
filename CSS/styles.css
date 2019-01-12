@@ -115,7 +115,7 @@ p {
 
 .body-md {
   font-size: 13pt;
-  line-height: 1.9;
+  line-height: 1.6;
   color: rgb(84, 84, 84);
 }
 
@@ -165,9 +165,13 @@ blockquote {
 
  button.learn-more {
   border: 2px solid #D8FFF5;
-  background: none;
+  background: #D8FFF5;
   padding: 15px;
   margin: 15px;
+  color: #4c4c4c;
+  position: absolute;
+  bottom:5px;
+  right: 0;
 }
 
 button.learn-more a {
@@ -176,8 +180,8 @@ button.learn-more a {
 }
 
 button.learn-more:hover  {
-  background: #D8FFF5;
   transition: 0.5s;
+  border: 2px solid #15868E;
 }
 
 button.bottom-nav {
@@ -241,6 +245,11 @@ footer {
   padding: 40px 0;
 }
 
+.photos-carousel img {
+  width: 100%;
+  margin-bottom: -4px;
+}
+
 .three-column {
     float: left;
     width: 33.33%;
@@ -250,6 +259,10 @@ footer {
   padding-top: 5%;
 }
 
+.copy-block p {
+  padding: 8px 15px 0 25px
+}
+
 .icons {
   width: 140px;
   display: block;
@@ -257,6 +270,8 @@ footer {
 }
 
 .split {
+  height: 380px;
+  position: relative;
 }
 
 .row {
