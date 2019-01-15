@@ -19,14 +19,10 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
 	margin: 0;
 	width:350px;
 	vertical-align:top;
-	background: none;
+	background: #6c3f17;
 	border-radius: 0;
-	border-bottom: 1.5px solid rgb(65, 65, 65);
-}
-
-#mc_embed_signup input.email::placeholder {
-	color: darkgrey;
-}
+/*	border-bottom: 1.5px solid rgb(65, 65, 65);
+*/}
 
 #mc_embed_signup label {
 	display: block;
