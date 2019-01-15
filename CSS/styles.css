@@ -87,12 +87,36 @@ img {
   max-width: 100%;
 }
 
+.width50 {
+  width: 50%;
+}
+
+figure {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  margin-right: 20px;
+}
+
+figcaption {
+  text-align:center;
+  font-family: italic;
+  color: rgb(111, 111, 111);
+}
+
+.float-left {float:left;}
+
+
 h1, h2, h3, h4 {
   display: block;
   color: #505050;
   text-align: center;
   margin: 0 auto;
   font-family: 'KoHo', Helvetica, sans-serif;
+}
+
+.deep-dive h1,.deep-dive h2,.deep-dive h3,.deep-dive h4 {
+  padding: 30px 0 15px 0;
 }
 
 h1 {
@@ -381,3 +405,9 @@ md (for small laptops - screens equal to or greater than 992px wide)
 
 lg (for laptops and desktops - screens equal to or greater than 1200px wide)*/
 
+/* MEDIA QUERIES */
+@media screen and (max-width : 730px)   {
+  img.width50 {
+    width: 100%;
+  }
+}
