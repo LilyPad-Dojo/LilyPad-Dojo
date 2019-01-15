@@ -250,7 +250,7 @@ button.bottom-nav {
   border: 0px solid rgb(76, 76, 76);
   background: #D8FFF5;
   padding: 15px;
-  margin: 15px;
+  margin: 15px 0;
 }
 
 button.bottom-nav a {
