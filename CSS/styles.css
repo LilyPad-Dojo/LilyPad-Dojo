@@ -232,6 +232,7 @@ blockquote {
   position: absolute;
   bottom:5px;
   right: 0;
+  border: 2px solid #15868E;
 }
 
 button.learn-more a {
@@ -241,7 +242,8 @@ button.learn-more a {
 
 button.learn-more:hover  {
   transition: 0.5s;
-  border: 2px solid #15868E;
+  background: white;
+  color:#007F5E;
 }
 
 button.bottom-nav {
