@@ -2,7 +2,9 @@
 * {
   box-sizing: border-box; }
 
-html {background-color:#E3FCD2;}
+html {
+  background: rgb(237, 237, 237);
+/*background-color:#E3FCD2;*/}
 
 nav {
   text-align: center;
@@ -10,7 +12,8 @@ nav {
   font-weight: 300;
   height: 75px;
   z-index: 999;
-}
+/*  background: #e1fff7;
+*/}
 
 strong, b {
   font-weight: bolder;
@@ -96,6 +99,7 @@ figure {
   flex-flow: column;
   margin: auto;
   margin-right: 20px;
+  padding: 20px;
 }
 
 figcaption {
@@ -113,6 +117,7 @@ h1, h2, h3, h4 {
   text-align: center;
   margin: 0 auto;
   font-family: 'KoHo', Helvetica, sans-serif;
+  clear: both;
 }
 
 .deep-dive h1,.deep-dive h2,.deep-dive h3,.deep-dive h4 {
@@ -141,6 +146,8 @@ p {
   padding: 20px 15px 15px 25px;
   margin: 0;
 }
+
+.clear {clear: both;}
 
 .hero-banner {
 /*  height: 500px;
@@ -327,8 +334,12 @@ footer {
 
 .row {
   display: flex;
-  margin-bottom: -4px;
-  clear: both;
+/*  margin-bottom: -4px;
+*/  clear: both;
+}
+
+.column {
+  background:rgba(245, 239, 255, 0.46);
 }
 
 /* Clear floats after the columns */
@@ -356,7 +367,7 @@ footer {
   color: white;
   font-family: 'KoHo', Helvetica, sans-serif;
   font-size:25pt;
-  margin-bottom: -10px;
+  margin-bottom: -7px;
 }
 
 .image-text-wrapper img {
@@ -393,6 +404,12 @@ footer {
 
 #air-infographic {
             background-image: url("../IMG/Systems/Air/air-handling-infographic3.png");
+            height: 35vw;
+            width: 100%;
+        }
+
+#water-infographic {
+            background-image: url("../IMG/Systems/Water/greywater-infographic.png");
             height: 35vw;
             width: 100%;
         }

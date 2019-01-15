@@ -24,6 +24,10 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
 	border-bottom: 1.5px solid rgb(65, 65, 65);
 }
 
+#mc_embed_signup input.email::placeholder {
+	color: darkgrey;
+}
+
 #mc_embed_signup label {
 	display: block;
 	font-size: 16px;
