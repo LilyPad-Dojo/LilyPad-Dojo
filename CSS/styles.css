@@ -366,6 +366,12 @@ footer {
   text-decoration: underline;
 }
 
+#air-infographic {
+            background-image: url("../IMG/Systems/Air/air-handling-infographic3.png");
+            height: 35vw;
+            width: 100%;
+        }
+
 /*xs (for phones - screens less than 768px wide)
 
 sm (for tablets - screens equal to or greater than 768px wide)
