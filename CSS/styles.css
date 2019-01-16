@@ -106,6 +106,7 @@ figcaption {
   text-align:center;
   font-family: italic;
   color: rgb(111, 111, 111);
+  padding-top:15px;
 }
 
 .float-left {float:left;}
