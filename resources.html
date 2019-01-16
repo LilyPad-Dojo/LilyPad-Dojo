@@ -85,6 +85,28 @@
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
         transform: translateY(-5px);
     }
+
+    @media screen and (max-width : 730px)   {
+
+        #resource-contacts   {
+            margin: 0;
+        }
+
+        #case-studies-wrapper {
+            width: unset;
+        }
+
+        .case-study {
+            width: unset;
+        }
+    }
+
+    @media screen and (max-width : 530px)   {
+
+        .resource-req {
+            width: 100%;
+        }
+    }
     </style>
     
 </head>
@@ -94,7 +116,7 @@
 
     <div id="nav-menu"></div>
 
-    <nav>
+    <nav class="nav-fixed">
         <div class="nav-wrapper">
             <!-- Nav Menu Button -->
             <button class="menu-btn">&#9776;</button>
@@ -104,6 +126,8 @@
             <a href="index.html"><img src="IMG/nav-logo.png" id="nav-logo" /></a>
         </div>
     </nav>
+
+    <div class="nav-spacer"></div>
 
     <!-- Content -->
     <div class="container" id="resource-container">

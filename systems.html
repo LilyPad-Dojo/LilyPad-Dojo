@@ -9,13 +9,38 @@
 
     <style type="text/css">
 
-        #climate-control {
-            width: 240px;
-        }
+#climate-control {
+    width: 240px;
+}
 
-        .row {
-            margin-bottom: -5px;
-        }
+.row {
+    margin-bottom: -5px;
+}
+
+@media screen and (max-width : 850px)   {
+
+   #systems .image-text-wrapper img {
+    filter: unset;
+  }
+}
+
+@media screen and (max-width : 730px)   {
+ 
+
+  #systems img {
+    width: 100%;
+    height: initial;
+    margin-bottom: -4px;
+  }
+
+}
+
+@media screen and (max-width : 600px)   {
+
+  #systems img {
+    height: 300px;
+    background-size:contain;
+  }
 
     
     </style>
@@ -27,21 +52,21 @@
 
     <div id="nav-menu"></div>
 
-    <nav>
+    <nav class="nav-fixed">
         <div class="nav-wrapper">
             <!-- Nav Menu Button -->
             <button class="menu-btn">&#9776;</button>
             
-            <div id="nav-title">Systems</div>
+            <div id="nav-title">High-Performance Systems</div>
 
             <a href="index.html"><img src="IMG/nav-logo.png" id="nav-logo" /></a>
         </div>
     </nav>
 
-    <!-- Content -->
-    <div class="container">
+    <div class="nav-spacer"></div>
 
-        <h1>High-Performance Systems</h1>
+    <!-- Content -->
+    <div class="container" id="systems">
 
         <p>
             LilyPad goes further than net-zero energy, it's net-positive. With a massive 13kW solar array, it produces 3x more energy than it consumes. By recycling water through the greywater system, it significantly cuts its water need. Additionally, air-sealing and super-insulated walls create best-in-class efficiency and a great home experience. Let's build high-performance homes that work for us, rather than us working to maintain our homes.

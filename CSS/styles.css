@@ -59,7 +59,7 @@ strong, b {
   display: inline-block;
   color: #505050;
   font-size: 20pt;
-  margin: 20px;
+  margin: 20px 0 0 10px;
 }
 
 
@@ -92,6 +92,7 @@ img {
 
 .width50 {
   width: 47%;
+  margin-right: initial;
 }
 
 figure {
@@ -320,6 +321,7 @@ footer {
 
 .copy-block {
   padding-top: 5%;
+  padding-bottom:5%;
 }
 
 .copy-block p {
@@ -337,10 +339,15 @@ footer {
   position: relative;
 }
 
-.row {
-  display: flex;
+.row.threecol-wrapper, #systems .row {
+  display: inline-flex;
 /*  margin-bottom: -4px;
 */  clear: both;
+}
+
+.sidebyside .row {
+  display: inline-flex;
+  clear: both;
 }
 
 .column {
@@ -419,6 +426,10 @@ footer {
             width: 100%;
         }
 
+.embedded-youtube {
+  height:423px;
+}
+
 /*xs (for phones - screens less than 768px wide)
 
 sm (for tablets - screens equal to or greater than 768px wide)
@@ -438,9 +449,20 @@ lg (for laptops and desktops - screens equal to or greater than 1200px wide)*/
     height: 100%;
   }
 
+  .banner {
+    padding: 40px 10px 0;
+  }
+
   blockquote {
     width: 100%;
-    padding:20px;
+    padding:0 20px;
+    font-size: 14pt;
+    line-height: 1.7;
+  }
+  .quote-mark {
+    font-size: 30pt;
+    position: relative;
+    top: 10px;
   }
 
   .nav-wrapper {
@@ -451,10 +473,142 @@ lg (for laptops and desktops - screens equal to or greater than 1200px wide)*/
   .quote-citation {
     width: initial;
   }
+
+  .copy-block p {
+    padding: 10px 5px 0 15px;
+  }
+
+  .body-md {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  button.bottom-nav {
+    margin:15px;
+  }
+
+  button.learn-more {
+    margin:10px;
+  }
+
+  .embedded-youtube {
+  height:56.5vw;
+}
+
 }
 
 @media screen and (max-width : 730px)   {
-  img.width50 {
+  .split img, .width50 {
     width: 100%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  p {
+    padding: 10px;
+  }
+
+  #nav-title {
+    font-size: 18pt;
+  }
+
+  #nav-logo {
+    height: 40px;
+    margin-right: 3px;
+  }
+
+  .menu-btn {
+    height: 50px;
+    width: 50px;
+    margin: 4px;
+  }
+}
+
+@media screen and (max-width : 660px)   {
+
+  .sidebyside .row {
+    display: unset;
+  }
+
+  .left, .right {
+    width: 100%;
+    height: initial;
+    margin-bottom: -4px;
+  }
+
+  .split.left .copy-block, .split.right .copy-block {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.95);
+    z-index: 99;
+    padding-bottom: 5%;
+  }
+
+  .split.left .copy-block {
+    top: 30vw;
+    }
+
+  .split.right .copy-block {
+    bottom: 0;
+    }
+
+  button.learn-more {
+    position: relative;
+    margin: 0 5px 0 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #nav-title {
+    font-size: 15pt;
+    font-weight: 400;
+    margin: 25px 0 0 3px;
+  }
+
+  #nav-logo {
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .body-md {
+    font-size: 11pt;
+    line-height: 1.3;
+  }
+  #nav-title {
+    font-size: 14pt;
+  }
+
+  p {
+    font-size: 11pt;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  #nav-title {
+    margin-left: -35px;
+  }
+
+  nav {
+    height: 65px;
+  }
+
+  .nav-spacer {
+    height: 65px;
+  }
+  #nav-logo {
+    display: none;
+  }
+
+  .menu-btn {
+    font-size: 30pt;
+
   }
 }
