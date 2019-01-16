@@ -428,6 +428,31 @@ md (for small laptops - screens equal to or greater than 992px wide)
 lg (for laptops and desktops - screens equal to or greater than 1200px wide)*/
 
 /* MEDIA QUERIES */
+
+@media screen and (max-width : 850px)   {
+
+  .container {
+    max-width: 100%;
+  }
+  .split {
+    height: 100%;
+  }
+
+  blockquote {
+    width: 100%;
+    padding:20px;
+  }
+
+  .nav-wrapper {
+    max-width: 100%;
+    margin-right:10px;
+  }
+
+  .quote-citation {
+    width: initial;
+  }
+}
+
 @media screen and (max-width : 730px)   {
   img.width50 {
     width: 100%;
