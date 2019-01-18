@@ -3,8 +3,9 @@
   box-sizing: border-box; }
 
 html {
-  background: rgb(237, 237, 237);
-/*background-color:#E3FCD2;*/}
+  background: #594d56;
+/*  background: rgb(237, 237, 237);
+*//*background-color:#E3FCD2;*/}
 
 nav {
   text-align: center;
@@ -73,7 +74,6 @@ strong, b {
 
 body {
   margin: 0;
-  background: rgb(72, 72, 74);
  }
 
 main {
