@@ -9,11 +9,14 @@ html {
 
 nav {
   text-align: center;
-  background: #FBF7F4;
-  font-weight: 300;
+  background: white;
+/*  background: #FBF7F4;
+*/  font-weight: 300;
   height: 75px;
   z-index: 999;
-  box-shadow: rgba(0, 0, 0, 0.0470588) 0px 3px 5px -1px, rgba(0, 0, 0, 0.0666667) 0px 5px 8px 0px, rgba(0, 0, 0, 0.0588235) 0px 1px 14px 0px;
+          box-shadow: rgba(0, 0, 0, 0.0470588) 0px 3px 5px -1px, rgba(0, 0, 0, 0.0666667) 0px 5px 8px 0px, rgba(0, 0, 0, 0.0588235) 0px 1px 14px 0px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.0470588) 0px 3px 5px -1px, rgba(0, 0, 0, 0.0666667) 0px 5px 8px 0px, rgba(0, 0, 0, 0.0588235) 0px 1px 14px 0px;;
+
 }
 
 strong, b {
