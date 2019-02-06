@@ -3,7 +3,9 @@
   box-sizing: border-box; }
 
 html {
-  background: #594d56;
+
+  background:#e5e9ef;
+  /* background: #594d56; */
 /*  background: rgb(237, 237, 237);
 *//*background-color:#E3FCD2;*/}
 
@@ -355,7 +357,7 @@ footer {
 }
 
 .column {
-  background:#FBF7F4;
+  /* background:#FBF7F4; */
 }
 
 /* Clear floats after the columns */
