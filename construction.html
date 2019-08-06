@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" type="image/png" href="IMG/favicon.png">
+    <meta charset="UTF-8">
+    <title>LilyPad Dojo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="CSS/global.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css" media="screen">
+
+    <link href="CSS/mailchimp.css?t=16:16" rel="stylesheet" type="text/css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+        #content-box {
+            max-width: 500px;
+            background: rgba(169, 169, 169, 0.84);
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+        .copy {
+            color: white;
+            padding: 10px 15px 0;
+        }
+        html {
+            background: url('IMG/construction.jpg');
+            background-size: cover;
+        }
+    </style>
+    
+  </head>
+<body>
+    <div id="content-box">
+
+        <!--<p id="demo"></p>-->
+
+        <p class="copy"><strong>LilyPad.house</strong> is under construction.</p>
+
+
+        <p class="copy">Great things are coming.</p>
+
+    <!-- Begin MailChimp Signup Form -->
+    <div id="mc_embed_signup" class="e-mailSignup">
+    <form action="https://ben-grandy.us18.list-manage.com/subscribe/post?u=763b8059bcd003cea2e6c320f&amp;id=10558e2ddd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+    <label for="mce-EMAIL">Stay connected to exciting LilyPad.house updates!</label>
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter e-mail" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_763b8059bcd003cea2e6c320f_33de836562" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+    <p id="no-spam">(We promise not to spam you.)</p>
+    </form>
+    </div>
+    <!--End MailChimp-->
+    </div>
+
+</body>
+
+<script>
+function myFunction() {
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+    var halfHeight = (h/2)-50;
+    halfHeight = halfHeight + "px"
+    //document.getElementById("demo").innerHTML = "Width: " + w + "<br>Height: " + h + "<br>Half-height: " + halfHeight;
+    
+    document.getElementById("content-box").style.margin = halfHeight + " auto 0";
+}
+myFunction ();
+</script>
+</html>
