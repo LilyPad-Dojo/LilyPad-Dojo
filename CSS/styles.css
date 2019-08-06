@@ -129,6 +129,7 @@ h1, h2, h3, h4 {
   margin: 0 auto;
   font-family: 'KoHo', Helvetica, sans-serif;
   clear: both;
+  font-weight: normal;
 }
 
 .deep-dive h1,.deep-dive h2,.deep-dive h3,.deep-dive h4 {
