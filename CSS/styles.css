@@ -549,7 +549,7 @@ lg (for laptops and desktops - screens equal to or greater than 1200px wide)*/
     margin-bottom: -4px;
   }
 
-  .split.left .copy-block, .split.right .copy-block {
+/*  .split.left .copy-block, .split.right .copy-block {
     position: absolute;
     background: rgba(255, 255, 255, 0.95);
     z-index: 99;
@@ -562,11 +562,11 @@ lg (for laptops and desktops - screens equal to or greater than 1200px wide)*/
 
   .split.right .copy-block {
     bottom: 0;
-    }
+    }*/
 
   button.learn-more {
     position: relative;
-    margin: 10px 5px 0 0;
+    margin: 10px 5px 20px 20px;
     padding: 12px;
     font-size: 10pt;
   }
