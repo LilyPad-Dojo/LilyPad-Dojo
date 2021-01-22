@@ -234,14 +234,16 @@ blockquote {
   border: 2px solid #D8FFF5;
   background: #D8FFF5;
 */
-  padding: 15px;
-  margin: 15px;
-  color: #00c0d4;
-  position: relative;
-  left:30%;
-     border: 0;
-     font-size:20px;
-/*  border: 2px solid #15868E;*/
+    padding: 15px;
+    margin: 15px;
+    color: #00c0d4;
+    position: relative;
+    left:30%;
+    border: 0;
+    font-size:20px;
+    box-shadow: 5px 5px 5px #99999985;
+    border: 1px solid #8a8a8a;
+}
 }
 
 .button.learn-more a::after {
@@ -254,11 +256,9 @@ button.learn-more a {
 }
 
 button.learn-more:hover  {
-/*
-  transition: 0.5s;
-  background: white;
-  color:#007F5E;
-*/
+
+    transition: 0.5s;
+    box-shadow: 0 0 0 white;
 }
 
 button.bottom-nav {
