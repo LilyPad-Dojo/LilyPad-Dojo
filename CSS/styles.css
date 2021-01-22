@@ -246,7 +246,7 @@ blockquote {
 }
 
 .button.learn-more::after {
-    content: "&raquo;
+    content: "&raquo";
 }
 
 button.learn-more a {
