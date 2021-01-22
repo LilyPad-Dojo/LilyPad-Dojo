@@ -257,10 +257,6 @@ button.learn-more:hover  {
 }
 
 
-button.learn-more a {
-  background: none;
-  color: #00c0d4;
-}
 
 .button.learn-more a::hover {
     color: white;
