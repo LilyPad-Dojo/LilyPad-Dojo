@@ -4,7 +4,6 @@
 
 html {
 
-  background:black;
 }
 
 nav {
@@ -293,7 +292,7 @@ button#lets-chat:hover {
 }
 
 .bottom-nav-wrapper {
-  background: #15868E;
+  background: #47c7a4;
   clear: both;
   float: right;
   width: 100%;
@@ -303,7 +302,7 @@ button#lets-chat:hover {
 .float-left {float:left;}
 
 footer {
-  background: black;
+  background: #5d3a10k;
   width: 100%;
   clear: both;
 }
