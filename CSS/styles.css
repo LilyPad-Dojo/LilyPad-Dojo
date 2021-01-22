@@ -260,6 +260,9 @@ button.learn-more:hover  {
 
     transition: 0.5s;
     box-shadow: 0 0 0 white;
+    background: #00c0d4;
+    border: 0;
+    color: white;
 }
 
 button.bottom-nav {
