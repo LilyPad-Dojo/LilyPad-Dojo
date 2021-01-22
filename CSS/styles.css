@@ -242,6 +242,8 @@ blockquote {
   position: absolute;
   bottom:0;
   right: 0;
+     border: 0;
+     font-size:20px;
 /*  border: 2px solid #15868E;*/
 }
 
@@ -251,9 +253,11 @@ button.learn-more a {
 }
 
 button.learn-more:hover  {
+/*
   transition: 0.5s;
   background: white;
   color:#007F5E;
+*/
 }
 
 button.bottom-nav {
