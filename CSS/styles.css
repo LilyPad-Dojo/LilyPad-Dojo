@@ -245,6 +245,10 @@ blockquote {
 /*  border: 2px solid #15868E;*/
 }
 
+.button.learn-more::after {
+    content: "&raquo;
+}
+
 button.learn-more a {
   background: none;
   color:#007F5E;
