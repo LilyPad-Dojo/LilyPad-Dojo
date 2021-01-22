@@ -244,16 +244,7 @@ blockquote {
     box-shadow: 5px 5px 5px #99999985;
     border: 1px solid #d4d4d4;
     border-radius: 10px;
-}
-}
 
-.button.learn-more a::hover {
-    color: white;
-}
-
-button.learn-more a {
-  background: none;
-  color: #00c0d4;
 }
 
 button.learn-more:hover  {
@@ -264,6 +255,17 @@ button.learn-more:hover  {
     border: 0;
     color: white;
 }
+
+
+button.learn-more a {
+  background: none;
+  color: #00c0d4;
+}
+
+.button.learn-more a::hover {
+    color: white;
+}
+
 
 button.bottom-nav {
   border: 0px solid rgb(76, 76, 76);
