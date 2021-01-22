@@ -232,15 +232,17 @@ blockquote {
 }
 
  button.learn-more {
+/*
   border: 2px solid #D8FFF5;
   background: #D8FFF5;
+*/
   padding: 15px;
   margin: 15px;
-  color: #4c4c4c;
+  color: #00c0d4;
   position: absolute;
   bottom:0;
   right: 0;
-  border: 2px solid #15868E;
+/*  border: 2px solid #15868E;*/
 }
 
 button.learn-more a {
