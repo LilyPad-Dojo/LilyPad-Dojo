@@ -263,9 +263,9 @@ button.learn-more:hover  {
 button.bottom-nav {
   border: 0px solid rgb(76, 76, 76);
   background: #D8FFF5;
-  padding: 15px;
-  margin: 15px 0;
-    border-radius:50px;
+  padding: 18px;
+    margin: 20px 0;
+    border-radius: 15px;
 }
 
 button.bottom-nav a {
