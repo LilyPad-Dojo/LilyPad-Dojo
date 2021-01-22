@@ -247,13 +247,13 @@ blockquote {
 }
 }
 
-.button.learn-more a::after {
-    content: "&raquo";
+.button.learn-more a::hover {
+    color: white;
 }
 
 button.learn-more a {
   background: none;
-  color:#007F5E;
+  color: #00c0d4;
 }
 
 button.learn-more:hover  {
