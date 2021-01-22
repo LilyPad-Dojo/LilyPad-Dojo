@@ -244,7 +244,7 @@ blockquote {
 /*  border: 2px solid #15868E;*/
 }
 
-.button.learn-more::after {
+.button.learn-more a::after {
     content: "&raquo";
 }
 
