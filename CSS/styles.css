@@ -66,25 +66,26 @@ strong, b {
 }
 .navbar .first{
         top: 30px;
-        left: 20px;
+        right: 40px;
 }
 
 .navbar .second{
         top: 45px;
-        left: 20px;
+        right: 40px;
 }
 
 .navbar .third{
         top: 60px;
-        left: 20px;
+        right: 40px;
 }
 
 .navbar:hover div:nth-child(1) {
   transition: all 0.5s;
+    width: 35px;
 }
 
 .navbar:hover div:nth-child(2) {
-    width: 30px;
+    width: 25px;
   transition: all 0.5s;
 }
 
