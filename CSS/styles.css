@@ -381,6 +381,7 @@ footer {
 .copy-block {
   padding-top: 5%;
   padding-bottom:5%;
+    background: white;
 }
 
 .copy-block p {
