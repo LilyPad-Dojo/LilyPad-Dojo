@@ -44,7 +44,7 @@ strong, b {
 .menu-btn {
 
   height: 80px;
-  margin-top: -7px;
+  margin-top: -12px;
     position: absolute;
 
 }
@@ -79,7 +79,7 @@ strong, b {
 }
 
 .navbar:hover div:nth-child(1) {
-  transform: translate(15px, 10px) rotate(90deg);
+  transform: translate(15px, 15px) rotate(90deg);
   transition: all 0.5s;
 }
 
@@ -89,7 +89,7 @@ strong, b {
 }
 
 .navbar:hover div:nth-child(3) {
-  transform: translate(-15px, -10px) rotate(90deg);
+  transform: translate(-15px, -15px) rotate(90deg);
   transition: all 0.5s;
 }
 
@@ -582,11 +582,6 @@ lg (for laptops and desktops - screens equal to or greater than 1200px wide)*/
     margin-right: 3px;
   }
 
-  .menu-btn {
-    height: 50px;
-    width: 50px;
-    margin: 4px;
-  }
 }
 
 @media screen and (max-width : 660px)   {
