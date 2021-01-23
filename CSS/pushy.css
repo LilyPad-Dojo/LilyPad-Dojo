@@ -22,7 +22,7 @@
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
 .pushy a:hover {
-  color: #a3a2a2;
+  color: #00c0d4;
 }
 .pushy ul:first-child {
   margin-top: 10px;
@@ -147,7 +147,7 @@
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
 .pushy-submenu button:hover {
-  color: #a3a2a2;
+  color: #00c0d4;
 }
 .pushy-submenu > a,
 .pushy-submenu > button {
