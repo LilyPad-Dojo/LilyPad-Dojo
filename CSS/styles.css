@@ -360,6 +360,10 @@ footer {
   clear: both;
 }
 
+.deep-dive {
+    background: white;
+}
+
 .banner {
   background: #15868E;
   width: 100%;
