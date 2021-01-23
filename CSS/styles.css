@@ -80,17 +80,16 @@ strong, b {
 }
 
 .navbar:hover div:nth-child(1) {
-  transform: translate(15px, 15px) rotate(90deg);
   transition: all 0.5s;
 }
 
 .navbar:hover div:nth-child(2) {
-  transform: rotate(90deg);
+    width: 30px;
   transition: all 0.5s;
 }
 
 .navbar:hover div:nth-child(3) {
-  transform: translate(-15px, -15px) rotate(90deg);
+    width: 20px;
   transition: all 0.5s;
 }
 
