@@ -66,19 +66,18 @@ transform: translate(-50%,-50%);
         width: 100px;
         height: 100px;
         position: relative;
-        border: 5px solid #49b293;
         cursor: pointer;
         transition: all 0.3s ease;
 }
 .navbar div{
-        height: 8px;
-        width: 60px;
-        background-color: #fff;
+        height: 3px;
+        width: 40px;
+        background-color: #536f38;
         position: absolute;
         transition: all 0.5s ease;
 }
 .navbar .first{
-        top: 25px;
+        top: 30px;
         left: 20px;
 }
 
@@ -88,7 +87,7 @@ transform: translate(-50%,-50%);
 }
 
 .navbar .third{
-        top: 65px;
+        top: 60px;
         left: 20px;
 }
 
