@@ -120,6 +120,13 @@ body {
   margin: 0;
  }
 
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+  clear: both;
+background: white;
+}
+
 main {
   padding: 20px;
   max-width: 1200px;
@@ -345,6 +352,10 @@ button#lets-chat:hover {
   width: 100%;
 }
 
+.bottom-nav-wrapper .container {
+    background: none;
+}
+
 .float-right {float: right;}
 .float-left {float:left;}
 
@@ -352,16 +363,6 @@ footer {
   background: #5d3a10;
   width: 100%;
   clear: both;
-}
-
-.container {
-  max-width: 750px;
-  margin: 0 auto;
-  clear: both;
-}
-
-.deep-dive, #systems {
-    background: white;
 }
 
 .banner {
