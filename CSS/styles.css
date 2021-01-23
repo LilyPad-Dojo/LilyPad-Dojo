@@ -701,11 +701,6 @@ lg (for laptops and desktops - screens equal to or greater than 1200px wide)*/
 }
 @media screen and (max-width: 400px) {
 
-.menu-btn {
-  font-size:25pt;
-  margin: 4px 0;
-}
-
 #nav-title {
     font-size:12pt;
   }
