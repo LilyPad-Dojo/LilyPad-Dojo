@@ -45,10 +45,7 @@ strong, b {
 
   height: 80px;
   margin-top: -7px;
-}
-
-.wrapper{
-position: absolute;
+    position: absolute;
 
 }
 
@@ -81,33 +78,17 @@ position: absolute;
         left: 20px;
 }
 
-.hamburger{
-  background: #49b293;
-  width: 55px;
-  padding: 25px;
-  float: left;
-  margin: 70px;
-  cursor: pointer;
-}
-.hamburger div{
-  height: 5px;
-  background: #fff;
-  width: 55px;
-  margin: 5px 0px;
-  transition: all 0.5s;
-}
-
-.hamburger:hover div:nth-child(1) {
+.navbar:hover div:nth-child(1) {
   transform: translate(15px, 10px) rotate(90deg);
   transition: all 0.5s;
 }
 
-.hamburger:hover div:nth-child(2) {
+.navbar:hover div:nth-child(2) {
   transform: rotate(90deg);
   transition: all 0.5s;
 }
 
-.hamburger:hover div:nth-child(3) {
+.navbar:hover div:nth-child(3) {
   transform: translate(-15px, -10px) rotate(90deg);
   transition: all 0.5s;
 }
