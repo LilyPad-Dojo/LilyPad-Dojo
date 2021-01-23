@@ -62,7 +62,7 @@ strong, b {
         background-color: #536f38;
         position: absolute;
         transition: all 0.5s ease;
-        border-radius: 5px;
+        border-radius: 20px;
 }
 .navbar .first{
         top: 30px;
