@@ -360,7 +360,7 @@ footer {
   clear: both;
 }
 
-.deep-dive {
+.deep-dive, #systems {
     background: white;
 }
 
