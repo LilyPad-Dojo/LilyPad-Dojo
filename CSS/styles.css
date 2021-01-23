@@ -190,11 +190,11 @@ h3 {
 }
 
 a, a:visited {
-  color: #15868E;
+  color: #00c0d4;
 }
 
 a:hover {
-  color: #30f2bc;
+  color: black;
   transition: 0.3s;
 }
 
