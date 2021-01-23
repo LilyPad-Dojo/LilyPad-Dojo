@@ -33,7 +33,7 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
 #mc_embed_signup .clear {display: inline-block;} /* positions button horizontally in line with input */
 #mc_embed_signup .button {
     font-size: 13px;
-	border: 1px solid;
+	border: 0;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
@@ -69,5 +69,9 @@ form.validate p {
 @media (max-width: 426px) {
     #mc_embed_signup input.email {width:100%; margin-bottom:5px;}
     #mc_embed_signup .clear {display: block; width: 100% }
-    #mc_embed_signup .button {width: 100%; margin:0; }
+    #mc_embed_signup .button {
+        width: 100%; 
+        margin:0;
+        border-radius: 0;
+    }
 }

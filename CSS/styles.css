@@ -589,6 +589,7 @@ lg (for laptops and desktops - screens equal to or greater than 1200px wide)*/
     width: 30px;
 }
 
+
 }
 
 @media screen and (max-width : 660px)   {
@@ -706,7 +707,7 @@ lg (for laptops and desktops - screens equal to or greater than 1200px wide)*/
   }
 
 button.bottom-nav {
-    margin: 5px;
+    margin: 20px;
     font-size: 11pt;
 }
 
