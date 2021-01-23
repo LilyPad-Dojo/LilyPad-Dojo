@@ -41,6 +41,7 @@ strong, b {
   margin: 0 auto;
 }
 
+/*
 .menu-btn {
   float: left;
   border: 0;
@@ -50,6 +51,76 @@ strong, b {
   color: #636363;
   background: none;
   margin-top: -7px;
+}
+*/
+
+.wrapper{
+position: absolute;
+top: 50%;
+left: 50%;
+width: 550px;
+transform: translate(-50%,-50%);
+}
+
+.navbar{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        border: 5px solid #49b293;
+        cursor: pointer;
+        transition: all 0.3s ease;
+}
+.navbar div{
+        height: 8px;
+        width: 60px;
+        background-color: #fff;
+        position: absolute;
+        transition: all 0.5s ease;
+}
+.navbar .first{
+        top: 25px;
+        left: 20px;
+}
+
+.navbar .second{
+        top: 45px;
+        left: 20px;
+}
+
+.navbar .third{
+        top: 65px;
+        left: 20px;
+}
+
+.hamburger{
+  background: #49b293;
+  width: 55px;
+  padding: 25px;
+  float: left;
+  margin: 70px;
+  cursor: pointer;
+}
+.hamburger div{
+  height: 5px;
+  background: #fff;
+  width: 55px;
+  margin: 5px 0px;
+  transition: all 0.5s;
+}
+
+.hamburger:hover div:nth-child(1) {
+  transform: translate(15px, 10px) rotate(90deg);
+  transition: all 0.5s;
+}
+
+.hamburger:hover div:nth-child(2) {
+  transform: rotate(90deg);
+  transition: all 0.5s;
+}
+
+.hamburger:hover div:nth-child(3) {
+  transform: translate(-15px, -10px) rotate(90deg);
+  transition: all 0.5s;
 }
 
 #nav-logo {
