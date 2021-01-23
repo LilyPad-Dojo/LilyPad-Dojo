@@ -358,7 +358,6 @@ footer {
   max-width: 750px;
   margin: 0 auto;
   clear: both;
-  background: #FFF;
 }
 
 .banner {
@@ -705,8 +704,11 @@ lg (for laptops and desktops - screens equal to or greater than 1200px wide)*/
   }
 
 button.bottom-nav {
-    margin: 20px;
     font-size: 11pt;
+    float: none;
+    width: 200px;
+    display: block;
+    margin: 30px auto;
 }
 
 .body-md {
