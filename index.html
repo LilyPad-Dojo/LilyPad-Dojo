@@ -20,7 +20,7 @@
         }
         
         #systems-content {
-            width: 1000px;
+            max-width: 1000px;
             margin: 0 auto;
             padding-top: 30px;
             color: white;
@@ -50,6 +50,14 @@
         
         #moreSystems a {
             color: black;
+        }
+        
+        @media screen and (max-width : 730px)   {
+            
+            #systems-content {
+                border-radius: 0;
+                height: inherit;
+            }
         }
     
     </style>
