@@ -57,15 +57,15 @@ strong, b {
         transition: all 0.3s ease;
 }
 .navbar div{
-        height: 3px;
-        width: 40px;
+        height: 2px;
+        width: 30px;
         background-color: #536f38;
         position: absolute;
         transition: all 0.5s ease;
         border-radius: 20px;
 }
 .navbar .first{
-        top: 30px;
+        top: 35px;
         right: 40px;
 }
 
@@ -75,22 +75,22 @@ strong, b {
 }
 
 .navbar .third{
-        top: 60px;
+        top: 55px;
         right: 40px;
 }
 
 .navbar:hover div:nth-child(1) {
   transition: all 0.5s;
-    width: 35px;
+    width: 25px;
 }
 
 .navbar:hover div:nth-child(2) {
-    width: 25px;
+    width: 20px;
   transition: all 0.5s;
 }
 
 .navbar:hover div:nth-child(3) {
-    width: 20px;
+    width: 15px;
   transition: all 0.5s;
 }
 
