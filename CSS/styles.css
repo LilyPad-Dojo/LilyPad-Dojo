@@ -3,12 +3,13 @@
   box-sizing: border-box; }
 
 html {
-background: #a2a2a2;
+/*background: #a2a2a2; grey*/
+    background: #222d35;
 }
 
 nav {
   text-align: center;
-  background: #e0f5ff;
+  background: #f2f0ed;
 /*  background: #FBF7F4;
 */  font-weight: 300;
   height: 75px;
@@ -50,7 +51,7 @@ strong, b {
 }
 
 .navbar{
-        width: 100px;
+        width: 80px;
         height: 100px;
         position: relative;
         cursor: pointer;
@@ -124,7 +125,7 @@ body {
   max-width: 750px;
   margin: 0 auto;
   clear: both;
-background: white;
+background: #f2f0ed;
 }
 
 main {
@@ -321,7 +322,7 @@ button.bottom-nav a {
 }
 
 button.bottom-nav:hover {
-  background: white;
+  background: #f2f0ed;
   transition: 0.5s;
 }
 
@@ -335,7 +336,7 @@ button#lets-chat {
 
 button#lets-chat:hover {
   border: 2px solid #15868E;
-  background: white;
+  background: #f2f0ed;
   transition: 0.5s;
   color:rgb(76, 76, 76);
 }
@@ -355,13 +356,14 @@ button#lets-chat:hover {
 .float-left {float:left;}
 
 footer {
-  background: #5d3a10;
-  width: 100%;
+/*  background: #5d3a10;*/
+  background: #222d35;
+    width: 100%;
   clear: both;
 }
 
 .banner {
-  background: #2e4622;
+  background: #5b7031;
   width: 100%;
   padding: 40px 0;
 }
