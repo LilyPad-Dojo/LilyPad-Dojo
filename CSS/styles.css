@@ -283,7 +283,8 @@ blockquote {
 
     padding: 15px;
     margin: 10px auto;
-    color: #00c0d4;
+     color: #5b7031;
+/*    color: #00c0d4;*/
     display: block;
    
     box-shadow: 5px 5px 5px #99999985;
@@ -296,7 +297,8 @@ button.learn-more:hover  {
 
     transition: 0.5s;
     box-shadow: 0 0 0 white;
-    background: #00c0d4;
+    background: #5b7031;
+/*    background: #00c0d4;*/
     border: 0;
     color: white;
 }
