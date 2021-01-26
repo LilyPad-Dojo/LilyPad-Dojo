@@ -9,20 +9,21 @@
   height: 100%;
   top: 0;
   z-index: 9999;
-  background: #FEF9F5;
+  background: #FEF0ed;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   /* enables momentum scrolling in iOS overflow elements */
 }
 .pushy a {
   display: block;
-  color: #5B5B5B;
+  color: #222d35;
   padding: 15px 30px;
   text-decoration: none;
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
 .pushy a:hover {
-  color: #00c0d4;
+/*  color: #00c0d4;*/
+    color: #5b7031;
 }
 .pushy ul:first-child {
   margin-top: 10px;
