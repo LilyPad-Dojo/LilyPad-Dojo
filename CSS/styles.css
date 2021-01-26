@@ -60,7 +60,7 @@ strong, b {
 .navbar div{
         height: 2px;
         width: 30px;
-        background-color: #536f38;
+        background-color: #5b7031;
         position: absolute;
         transition: all 0.5s ease;
         border-radius: 20px;
@@ -344,7 +344,8 @@ button#lets-chat:hover {
 }
 
 .bottom-nav-wrapper {
-  background: #47c7a4;
+/*  background: #47c7a4;*/
+    background: #5b7031;
   clear: both;
   float: right;
   width: 100%;
