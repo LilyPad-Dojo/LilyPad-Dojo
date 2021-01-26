@@ -191,11 +191,12 @@ h3 {
 }
 
 a, a:visited {
-  color: #00c0d4;
+/*  color: #00c0d4;*/
+    color: #5b7031;
 }
 
 a:hover {
-  color: black;
+  color: #222d35;
   transition: 0.3s;
 }
 
