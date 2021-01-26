@@ -16,14 +16,14 @@
 }
 .pushy a {
   display: block;
-  color: #222d35;
+  color: #5b7031;
   padding: 15px 30px;
   text-decoration: none;
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
 .pushy a:hover {
 /*  color: #00c0d4;*/
-    color: #5b7031;
+    color: #222d35;
 }
 .pushy ul:first-child {
   margin-top: 10px;
@@ -140,7 +140,7 @@
 }
 .pushy-submenu button {
   width: 100%;
-  color: #5B5B5B;
+  color: #5b7031;
   padding: 15px 30px;
   text-align: left;
   background: transparent;
@@ -148,7 +148,7 @@
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
 .pushy-submenu button:hover {
-  color: #00c0d4;
+  color: #222d35;
 }
 .pushy-submenu > a,
 .pushy-submenu > button {
