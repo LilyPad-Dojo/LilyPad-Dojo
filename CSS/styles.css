@@ -105,7 +105,7 @@ strong, b {
   display: inline-block;
   color: #505050;
   font-size: 20pt;
-  margin: 20px 0 0 10px;
+  margin: 20px 0 0 55px;
 }
 
 
@@ -283,7 +283,7 @@ blockquote {
  button.learn-more {
 
     padding: 15px;
-    margin: 10px auto;
+    margin: 20px auto 5px auto;
      color: #5b7031;
 /*    color: #00c0d4;*/
     display: block;
@@ -291,6 +291,7 @@ blockquote {
     box-shadow: 5px 5px 5px #99999985;
     border: 1px solid #d4d4d4;
     border-radius: 10px;
+     font-size:18px;
 
 }
 
@@ -468,7 +469,6 @@ footer {
 #copyright {
   text-align: center;
   color: rgb(209, 209, 209);
-  font-style:italic;
   display: block;
   margin: 0 auto;
   padding: 20px 0;
