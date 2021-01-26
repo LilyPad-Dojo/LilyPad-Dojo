@@ -19,7 +19,7 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
 	margin: 0;
 	width:350px;
 	vertical-align:top;
-	background: #6c3f17;
+/*	background: #6c3f17;*/
 	border-radius: 0;
 /*	border-bottom: 1.5px solid rgb(65, 65, 65);
 */}
@@ -38,8 +38,10 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	letter-spacing: .03em;
+/*
 	color: white;
 	background-color: #A86118;
+*/
 	box-sizing: border-box;
 	height: 32px;
 	line-height: 32px;
