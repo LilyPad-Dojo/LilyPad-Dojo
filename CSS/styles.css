@@ -125,7 +125,7 @@ body {
   max-width: 750px;
   margin: 0 auto;
   clear: both;
-background: #f2f0ed;
+background: white;
 }
 
 main {
@@ -192,7 +192,7 @@ h3 {
 
 a, a:visited {
 /*  color: #00c0d4;*/
-    color: #5b7031;
+    color: white;
 }
 
 a:hover {
@@ -283,16 +283,16 @@ blockquote {
  button.learn-more {
 
     padding: 15px;
-    margin: 10px auto 5px auto;
-     color: #5b7031;
+    margin: 15px auto 5px auto;
+     color: white;
 /*    color: #00c0d4;*/
     display: block;
    
-    box-shadow: 5px 5px 5px #99999985;
-    border: 1px solid #d4d4d4;
+/*    box-shadow: 5px 5px 5px #99999985;*/
+    border: 0px solid #d4d4d4;
     border-radius: 10px;
      font-size:18px;
-     background: #f2f0ed;
+     background: #5b7031;
 
 }
 
